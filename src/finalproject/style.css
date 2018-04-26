@@ -1,0 +1,70 @@
+#pane{
+    -fx-background-image: url("we-bare-bears-sq.jpg"); 
+    -fx-background-size:cover;
+}
+#pane2{
+    -fx-background-image: url("forest.jpg");
+    -fx-background-size:cover;
+}
+#pane3{
+    -fx-background-image: url("bkg3.jpg");
+    -fx-background-size:cover;
+}
+#colorBkg{
+    -fx-background-image: url("bkg3.jpg");
+    -fx-background-size:cover;
+}
+#btn{
+    -fx-font-size:50;
+    -fx-text-fill:#2a3d25;
+    -fx-padding: 10;
+    -fx-background-color: #518c41;
+    -fx-border-radius:50px;
+}
+#text{
+        -fx-font: 100px Verdana;
+        -fx-fill: linear-gradient(from 0% 0% to 100% 200%, repeat, aqua 0%, red 50%);
+}
+#arrows:hover{
+        -fx-scale-y: 1.1;
+        -fx-scale-x: 1.1;
+}
+
+#door:hover{
+        -fx-scale-y: 1.1;
+        -fx-scale-x: 1.1;
+}
+#close{
+        -fx-opacity:0.5;
+}
+#close:hover{
+        -fx-scale-y: 1.1;
+        -fx-scale-x: 1.1;
+        -fx-opacity:0.8;
+}
+.root {
+    -fx-background-image: url("background.jpg");
+    -fx-padding: 15; 
+    -fx-font-size: 15;
+}
+
+.navbar {
+    -fx-background-color: burlywood, peachpuff; 
+    -fx-background-radius: 10, 10; 
+    -fx-background-insets: 0, 2;  
+    -fx-padding: 10 15 15 10; 
+}
+.contentnode {
+    -fx-background-color: aliceblue; 
+    -fx-padding: 15 20 20 565;
+    -fx-font-style: italic;
+    -fx-font-size: 30px;
+    -fx-effect: dropshadow(gaussian, slategrey, 10, 0, 5, 5);  
+}
+.hyperlink:hover {
+   -fx-scale-y: 1.1;
+   -fx-scale-x: 1.1;
+}
+#arrows{
+    -fx-padding:15 70 10 10;
+}
